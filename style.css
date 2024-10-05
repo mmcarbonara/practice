@@ -34,8 +34,7 @@ header {
   text-align: right;
   font-size: 14px;
   padding-top: 15px;
-  display: none;
-  }
+}
 
 /* ナビゲーションのリンクの装飾設定 */
 #nav-pc > a {
@@ -63,11 +62,16 @@ header {
 #menu-sp {
   display: none;
 }
+
+#nav-sp {
+  display: none;
+}
+
 }
 
 /*スマホ用冷アウト*/
 /*画面幅が767px以下の時*/
-@media screen and (man-width: 767px) {
+@media screen and (max-width: 767px) {
   /* 横幅設定 */
   body {
     min-width: 375px;
@@ -80,7 +84,6 @@ header {
 #menu-sp {
   float: right;
   padding: 0;
-  display: none;
 }
 
 /*スマホ用ナビゲーション*/
@@ -145,5 +148,9 @@ header {
   background-image: url("/Users/miku/Desktop/kadai_013/images/arrow.png");
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+#nav-pc {
+  display : none;
 }
 }
