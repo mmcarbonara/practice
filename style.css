@@ -112,6 +112,8 @@ PC用のスタイル
     position: absolute;
     top: 20px;
     right: 20px;
+    background-color: transparent;
+    border: none;
   }
 
   /* ナビゲーション用ロゴ */
@@ -147,7 +149,7 @@ PC用のスタイル
     height: 44px;
     font-size: 16px;
     background-image: url("images/arrow.png");
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-position: right top;
   }
 
